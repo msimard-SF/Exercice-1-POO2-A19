@@ -17,7 +17,7 @@ public class Employee implements IEmployee, Comparable<Employee> {
 	private String name;
 	private float initialAnnualSalary;
 	private ArrayList<SalaryIncrease> salaryIncreaseList = new ArrayList<SalaryIncrease>();
-	
+	private int abc;
 	
 	public Employee(String name, float initialAnnualSalary) {
 		validateInitialAnnualSalary(initialAnnualSalary);
